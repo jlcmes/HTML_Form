@@ -1,12 +1,12 @@
 <html>
 <body>
 
-Hola <?php echo $_POST["nombre"]; ?> !<br>
+Hola <?php echo $_GET["nombre"]; ?> !<br>
 
-Tu correo es <?php echo $_POST["correo"]; ?>
+Tu correo es <?php echo $_GET["correo"]; ?>
 
-Has enviado el siguiente mensaje: <p> <?php echo $_POST["mensaje"]; ?> </p>
+Has enviado el siguiente mensaje: <p> <?php echo $_GET["mensaje"]; ?> </p>
 
-Tu respuesta a si deseas recibir respuesta:  <?php echo $_POST["envioEmail"]; ?> 
+Tu respuesta a si deseas recibir respuesta:  <?php echo $_GET["envioEmail"]; ?> 
 </body>
 </html>
